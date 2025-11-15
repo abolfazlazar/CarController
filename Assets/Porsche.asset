@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5709ca89b2624fb39a9cd289a3b5b233, type: 3}
+  m_Name: Porsche
+  m_EditorClassIdentifier: Assembly-CSharp::CarConfig
+  engineTorqueCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 800
+      value: 500
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 4500
+      value: 800
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 7000
+      value: 650
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxRpm: 7000
+  idleRpm: 800
+  engineInertia: 0.3
+  powerMultiplier: 8
+  gearRatios:
+  - 3.5
+  - 2.5
+  - 1.8
+  - 1.3
+  - 1
+  - 0.8
+  reverseGearRatio: 3
+  finalDriveRatio: 3
+  shiftUpRpm: 6000
+  shiftDownRpm: 2500
+  shiftClutchTime: 0.15
+  clutchValueDuringShift: 0.3
+  maxSteeringAngle: 35
+  steeringCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -0.0069999998
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 100
+      value: 0.3
+      inSlope: -0.0069999998
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  steeringSpeed: 3
+  maxBrakeTorque: 3000
+  handbrakeForce: 5000
+  brakeBias: 0.6
+  centerOfMassOffset: -0.5
+  downforceCoefficient: 2
+  dragCoefficient: 0.15
+  antiRollForce: 5000
